@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 class Plateau {
+
     private int id;
     private String description;
     private int longueur;
@@ -37,7 +38,7 @@ class Plateau {
          * Affichage console du plateau avec ses différents
          */
         StringBuilder plateauInfo = new StringBuilder();
-        plateauInfo.append("Plateau ID: ").append(id).append("\n");
+        plateauInfo.append("Plateau n° ").append(id).append("\n");
         plateauInfo.append("Description: ").append(description).append("\n");
         plateauInfo.append("Longueur: ").append(longueur).append(" cases\n");
 
