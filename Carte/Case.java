@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import Perso.Ennemi.*;
 
 class Case {
     private int id;

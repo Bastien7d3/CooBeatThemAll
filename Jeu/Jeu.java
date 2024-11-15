@@ -1,15 +1,17 @@
 import java.util.ArrayList;
 import java.util.List;
 
+import Perso.Ennemi.Boss.BossEnnemi;
+import Perso.Ennemi.Brigand.BrigandEnnemi;
+
 public class Jeu {
     public static void main(String[] args) {
         // Cases prédéfinies
         ArrayList<Case> casesPredefinies = new ArrayList<>();
         casesPredefinies.add(new Case(1, "Bonus de soin", new ArrayList<>()));
         casesPredefinies.add(new Case(2, "Bonus d'attaque", new ArrayList<>()));
-        casesPredefinies.add(new Case(3, "Pas de bonus", new ArrayList<>(List.of(new Ennemi("Gangster")))));
-        casesPredefinies.add(new Case(4, "Pas de bonus", new ArrayList<>(List.of(new Ennemi("Brigand")))));
-        casesPredefinies.add(new Case(5, "Pas de bonus", new ArrayList<>(List.of(new Ennemi("Catcheur")))));
+        casesPredefinies.add(new Case(4, "Pas de bonus", new ArrayList<>(List.of(new BrigandEnnemi()))));
+        casesPredefinies.add(new Case(5, "Pas de bonus", new ArrayList<>(List.of(new BossEnnemi()))));
 
         // Création des 3 plateaux
         Plateau plateau10 = new Plateau(1, "Petit plateau (10 cases)", 10);
