@@ -5,8 +5,8 @@ import Perso.Perso;
 public abstract class Hero extends Perso{
     protected boolean isPlayable; // Attribut pour savoir si c'est un héros jouable
 
-    public Hero(String name, int pv, int att, int def) {
-        super(name, pv, att, def);
+    public Hero(String name, int pv, int att, int def, int spe) {
+        super(name, pv, att, def, spe);
         this.isPlayable = true;
     }
 

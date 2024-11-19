@@ -5,7 +5,7 @@ import Perso.Hero.Hero;
 
 public class WarriorHero extends Hero implements PersoPuissant{
     public WarriorHero() {
-        super("Warrior Hero", 100, 30, 15);
+        super("Warrior Hero", 100, 30, 15, 50);
     }
 
     @Override

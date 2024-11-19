@@ -5,7 +5,7 @@ import Perso.Hero.Hero;
 
 public class MageHero extends Hero  implements PersoPuissant{
     public MageHero() {
-        super("Mage Hero", 80, 25, 10);
+        super("Mage Hero", 80, 25, 10, 30);
     }
 
     @Override
