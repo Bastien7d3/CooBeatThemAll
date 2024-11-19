@@ -1,8 +1,9 @@
 package Perso.Hero.Warrior;
 
+import Perso.PersoPuissant;
 import Perso.Hero.Hero;
 
-public class WarriorHero extends Hero {
+public class WarriorHero extends Hero implements PersoPuissant{
     public WarriorHero() {
         super("Warrior Hero", 100, 30, 15);
     }

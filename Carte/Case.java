@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import Perso.Ennemi.*;
+import Perso.Ennemi.Ennemi;
 
 class Case {
     private int id;
@@ -36,7 +36,7 @@ class Case {
         }
     
         caseInfo += "Ennemis: " + (!ennemis.isEmpty() ? ( // sEmpty permet de vérifier si la chaine de carctères est vide ou pas
-                    String.join(" ", ennemis.stream().map(Ennemi::getNom).toArray(String[]::new))
+                    String.join(" ", ennemis.stream().map(Ennemi::GetNom).toArray(String[]::new))
                    ):(
                     "Aucun ennemi"
                    ));

@@ -7,8 +7,5 @@ public class BrigandEnnemi extends Ennemi {
         super("Brigand", 60, 15, 5, false);
     }
 
-    @Override
-    public void useUltimate() {
-        System.out.println(name + " uses Sneak Attack!");
-    }
+
 }

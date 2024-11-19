@@ -16,9 +16,6 @@ public class Main {
         System.out.println(mage);
         mage.useUltimate();
 
-        System.out.println(brigand);
-        brigand.useUltimate();
-
         System.out.println(boss);
         boss.useUltimate();
 

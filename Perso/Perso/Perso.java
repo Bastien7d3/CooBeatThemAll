@@ -52,9 +52,6 @@ public abstract class Perso {
         return pv > 0;
     }
 
-    // Méthode abstraite pour l'ultime
-    public abstract void useUltimate();
-
     @Override
     public String toString() {
         return name + " - PV: " + pv + ", ATT: " + att + ", DEF: " + def;

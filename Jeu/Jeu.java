@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import Perso.Ennemi.Boss.BossEnnemi;
 import Perso.Ennemi.Brigand.BrigandEnnemi;
+import Perso.Ennemi.Boss.BossEnnemi;
 
 public class Jeu {
     public static void main(String[] args) {
