@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import Combat.Combat;
 import Perso.Hero.Hero;
 import Perso.Hero.Mage.MageHero;
 import Perso.Hero.Warrior.WarriorHero;
@@ -52,7 +53,7 @@ public class Jeu {
                 plateauChoisi = plateau20;
                 System.out.println("Grand plateau enregistré avec succès !");
             } else {
-                System.out.println("Choix invalide. Veuillez réessayer.");
+                System.out.println("Choix invalide. Veuillez réessayer.\n");
             }
         }
 
@@ -87,7 +88,7 @@ public class Jeu {
         Scanner scanner = new Scanner(System.in);
         int position = 0; // placement du joueur sur la case de départ 0
 
-        while (position < plateau.getCases().size()) {
+        while (position != plateau.getCases().size()) {
             Case currentCase = plateau.getCases().get(position); // case actuelle du joueur
             System.out.println("\nVous êtes sur la " + currentCase);
 
@@ -96,22 +97,23 @@ public class Jeu {
                 // Si il y a un bonus
                 if (currentCase.getBonus() != null) {
                     System.out.println("Bonus de la case : " + currentCase.getBonus());
-                    joueur1.appliquerBonus(currentCase.getBonus());
+
+                    // TODO : faire la méthode pour appliquer les bonus
+                    //joueur1.appliquerBonus(currentCase.getBonus());
                     Thread.sleep(1500); // attendre 1,5 secondes pour laisser du suspense !
                 }
 
                 // Si il y a des ennemis
                 if (!currentCase.getEnnemis().isEmpty()) {
-                    System.out.println("Vous êtes attaqué par des ennemis !");
+                    System.out.println("Vous êtes attaqué par un ennemis !");
                     for (Ennemi ennemi : currentCase.getEnnemis()) {
                         Thread.sleep(1500);
                         System.out.println("\nCombat contre : " + ennemi);
-                        boolean joueurGagne = joueur1.combattre(ennemi);
-                        if (!joueurGagne) {
-                            Thread.sleep(1500);
-                            System.out.println("Dommage, vous êtes mort...");
-                            Thread.sleep(1500);
-                            System.out.println("Fin du jeu. A bientot !!");
+                        Combat combat = new Combat(joueur1, ennemi);
+                        combat.lancerCombat();
+                        // si il est mort aloprs c'est ciao
+                        if (joueur1.isAlive() == false) {
+                            System.out.println("Vous êtes mort ! Fin du jeu.");
                             return;
                         }
                     }
@@ -126,7 +128,7 @@ public class Jeu {
 
             // Demandez au joueur s'il veut avancer ou arrêter
             System.out.println("\n----------------------------------------\n");
-            System.out.println("Que voulez-vous faire ? (1: Avancer, 2: Arrêter)");
+            System.out.println("Bravo, vous avez réussi la case.\nQue voulez-vous faire ? (1: Avancer, 2: Arrêter)");
             int choix = scanner.nextInt();
             if (choix == 2) {
                 System.out.println("Vous avez quitté le jeu. A bientot !!");

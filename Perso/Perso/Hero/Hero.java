@@ -1,7 +1,6 @@
 package Perso.Hero;
 
 import Perso.Perso;
-import Perso.Ennemi.Ennemi;
 
 public abstract class Hero extends Perso{
     protected boolean isPlayable; // Attribut pour savoir si c'est un héros jouable
