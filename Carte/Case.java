@@ -29,19 +29,32 @@ class Case {
         /*
          * Affichage console d'une case
          */
-        String caseInfo = "Case " + id + " [";
+        String result = "Case " + id + " [";
     
+        if (id == 0) {
+            result += "Case départ !]";
+            return result;
+        }
+
+        if (bonus != null && bonus.equals("Arrivée")) {
+            result += "Arrivée !]";
+            return result;
+        }
+
         if (bonus != null) {
-            caseInfo += "Bonus: " + bonus + ", ";
+            result += "Bonus: " + bonus + ", ";
         }
     
-        caseInfo += "Ennemis: " + (!ennemis.isEmpty() ? ( // sEmpty permet de vérifier si la chaine de carctères est vide ou pas
-                    String.join(" ", ennemis.stream().map(Ennemi::getNom).toArray(String[]::new))
-                   ):(
-                    "Aucun ennemi"
-                   ));
-    
-        caseInfo += "]";
-        return caseInfo;
+        if (!ennemis.isEmpty()) { // isEmpty permet de vérifier si la chaine de carctères est vide ou pas
+            result += "Ennemis: ";
+            for (Ennemi ennemi : ennemis) {
+                result += ennemi.GetNom() + "";
+            }
+        } else {
+            result += "Aucun ennemi";
+        }
+        
+        result += "]";
+        return result;
     }
 }

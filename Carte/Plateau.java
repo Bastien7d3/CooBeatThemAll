@@ -21,11 +21,14 @@ class Plateau {
          */
         Random random = new Random();
         
-        for (int i = 0; i <= longueur; i++) {
+        for (int i = 0; i < longueur; i++) {
             Case caseAleatoire = casesPredefinies.get(random.nextInt(casesPredefinies.size()));
             Case nouvelleCase = new Case(i, caseAleatoire.getBonus(), new ArrayList<>(caseAleatoire.getEnnemis()));
             cases.add(nouvelleCase);
         }
+
+        Case caseArrivee = new Case(longueur, "Arrivée", new ArrayList<>());
+        cases.add(caseArrivee);
     }
 
     public ArrayList<Case> getCases() {

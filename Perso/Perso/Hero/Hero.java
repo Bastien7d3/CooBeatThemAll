@@ -1,6 +1,7 @@
 package Perso.Hero;
 
 import Perso.Perso;
+import Perso.Ennemi.Ennemi;
 
 public abstract class Hero extends Perso {
     protected boolean isPlayable; // Attribut pour savoir si c'est un héros jouable
@@ -17,7 +18,7 @@ public abstract class Hero extends Perso {
     public void setPlayable(boolean playable) {
         isPlayable = playable;
     }
-
+    
     // Méthode spéciale pour les héros
     public void heal(int healAmount) {
         setPv(pv + healAmount); // Guérit les PV
