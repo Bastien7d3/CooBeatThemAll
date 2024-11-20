@@ -5,12 +5,14 @@ public abstract class Perso {
     protected int pv;  // Points de vie
     protected int att; // Points d'attaque
     protected int def; // Points de défense
+    protected int vitesse; //Points de Vitesse
 
-    public Perso(String name, int pv, int att, int def) {
+    public Perso(String name, int pv, int att, int def, int spe) {
         this.name = name;
         this.pv = pv;
         this.att = att;
         this.def = def;
+        this.vitesse = spe;
     }
 
     // Getters et Setters
@@ -42,18 +44,23 @@ public abstract class Perso {
         this.def = def;
     }
 
+    // Getters et setters
+    public int getVitesse() {
+        return vitesse;
+    }
+    
+    public void setVitesse(int vitesse) {
+        this.vitesse = vitesse;
+    }
+
     // Méthodes supplémentaires
     public void takeDamage(int damage) {
-        int actualDamage = Math.max(damage - def, 0); // Réduction par la défense
-        setPv(pv - actualDamage); // Met à jour les PV
+        setPv(pv - damage);
     }
 
     public boolean isAlive() {
         return pv > 0;
     }
-
-    // Méthode abstraite pour l'ultime
-    public abstract void useUltimate();
 
     @Override
     public String toString() {

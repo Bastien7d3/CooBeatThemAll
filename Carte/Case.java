@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import Perso.Ennemi.*;
+import Perso.Ennemi.Ennemi;
 
 class Case {
     private int id;
@@ -53,7 +53,7 @@ class Case {
         } else {
             result += "Aucun ennemi";
         }
-        
+
         result += "]";
         return result;
     }

@@ -1,7 +1,9 @@
 import Perso.Hero.Hero;
 import Perso.Hero.Mage.MageHero;
 import Perso.Hero.Warrior.WarriorHero;
+import Perso.Hero.Mage.MageHero;
 import Perso.Ennemi.Brigand.BrigandEnnemi;
+import Combat.Combat;
 import Perso.Ennemi.Boss.BossEnnemi;
 
 public class Main {

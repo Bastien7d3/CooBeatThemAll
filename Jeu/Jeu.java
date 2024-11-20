@@ -117,7 +117,7 @@ public class Jeu {
                     }
                 }
             }
-            
+
 
             // Si la case est vide
             if (currentCase.getBonus() == null && currentCase.getEnnemis().isEmpty()) {
