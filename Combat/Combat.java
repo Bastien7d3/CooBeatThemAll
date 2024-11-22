@@ -1,59 +1,62 @@
 package Combat;
 
 import java.util.Random;
+import java.util.Scanner;
 
 import Perso.Perso;
+import Perso.Hero.Hero;
 
 public class Combat {
-    private Perso joueur1;
+    private Hero joueur1;
     private Perso joueur2;
 
     // Constructeur
-    public Combat(Perso joueur1, Perso joueur2) {
+    public Combat(Hero joueur1, Perso joueur2) {
         this.joueur1 = joueur1;
         this.joueur2 = joueur2;
     }
 
     // Méthode pour lancer le combat
     public void lancerCombat() {
-        
-        
-        System.out.println("Le combat commence entre " + joueur1.getName() + " et " + joueur2.getName() + " !");
-        Perso premier;
-        Perso second ;
-        // Déterminer l'ordre des attaques
-        if (joueur1.getVitesse() >= joueur2.getVitesse()) {
-            premier = joueur1;
-            second = joueur2;
-        }else{
-            premier = joueur2;
-            second = joueur1;
-        }
+        Random random = new Random();
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println(premier.getName() + " attaque en premier grâce à sa vitesse supérieure !");
-        
+        System.out.println("Le combat commence entre " + joueur1.getName() + " et " + joueur2.getName() + " !");
+        int choix;
+
         // Boucle de combat
         while (joueur1.isAlive() && joueur2.isAlive()) {
-            // Tour du premier attaquant
-            effectuerAttaque(premier, second);
-            if (!second.isAlive()) {
-                System.out.println(second.getName() + " est mort !");
-                break;
-            }
+            System.out.println("Utiliser la capacité spéciale ? (1 = oui | 2 = non)");
+            choix = scanner.nextInt();
+            if (choix == 1) {
+                joueur1.useUltimate();
+            } else {
+                // Héros attaque entre 1 et 5 fois
+                int nbAttaques = random.nextInt(5) + 1;
+                System.out.println(joueur1.getName() + " attaque " + nbAttaques + " fois !");
+                for (int i = 0; i < nbAttaques && joueur2.isAlive(); i++) {
+                    int degats = calculerDegats(joueur1, joueur2);
+                    joueur2.takeDamage(degats);
+                    System.out.println(joueur1.getName() + " inflige " + degats + " points de dégâts à "
+                            + joueur2.getName() + ".");
+                    if (!joueur2.isAlive()) {
+                        System.out.println(joueur2.getName() + " est mort !");
+                        System.out.println("Le combat est gagné ! ! ! ");
+                        break;
+                    }
+                }
+                if (!joueur2.isAlive()) {
+                    break;
+                }
 
-            // Tour du second attaquant
-            effectuerAttaque(second, premier);
-            if (!premier.isAlive()) {
-                System.out.println(premier.getName() + " est mort !");
-                break;
+                // Tour du joueur2 attaquant
+                effectuerAttaque(joueur2, joueur1);
+                if (!joueur1.isAlive()) {
+                    System.out.println(joueur1.getName() + " est mort !");
+                    System.out.println("Le combat est perdu . . .");
+                    break;
+                }
             }
-        }
-
-        // Annonce du gagnant
-        if (joueur1.isAlive()) {
-            System.out.println(joueur1.getName() + " remporte le combat !");
-        } else {
-            System.out.println(joueur2.getName() + " remporte le combat !");
         }
     }
 
@@ -62,7 +65,8 @@ public class Combat {
         int degats = calculerDegats(attaquant, defenseur);
         defenseur.takeDamage(degats);
 
-        System.out.println(attaquant.getName() + " attaque " + defenseur.getName() + " et inflige " + degats + " points de dégâts !");
+        System.out.println(attaquant.getName() + " attaque " + defenseur.getName() + " et inflige " + degats
+                + " points de dégâts !");
         System.out.println(defenseur.getName() + " a maintenant " + defenseur.getPv() + " PV.");
     }
 
