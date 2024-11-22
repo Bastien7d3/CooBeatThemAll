@@ -22,4 +22,6 @@ public abstract class Hero extends Perso{
     public void heal(int healAmount) {
         setPv(pv + healAmount); // Guérit les PV
     }
+
+    public abstract void useUltimate();
 }

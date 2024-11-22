@@ -120,7 +120,6 @@ public class Jeu {
                 }
             }
 
-
             // Si la case est vide
             if (currentCase.getBonus() == null && currentCase.getEnnemis().isEmpty()) {
                 System.out.println("La case est vide, vous avancez.");

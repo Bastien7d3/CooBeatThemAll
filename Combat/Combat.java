@@ -86,4 +86,3 @@ public class Combat {
         return Math.min(degats, defenseur.getPv());
     }
 }
-
