@@ -72,19 +72,15 @@ public class Combat {
 
     // Méthode avancée pour calculer les dégâts
     private int calculerDegats(Perso attaquant, Perso defenseur) {
-        Random random = new Random();
 
         // Calcul de la base avec les statistiques existantes
         double base = attaquant.getAtt() * 1.2;
-
-        // Facteur critique (entre 1.0x et 1.5x)
-        double critique = base * (1 + random.nextDouble() * 0.5);
 
         // Réduction des dégâts par la défense
         double reduction = defenseur.getDef() * 0.5;
 
         // Calcul final des dégâts
-        int degats = (int) Math.max(critique - reduction, 1);
+        int degats = (int) Math.max(base - reduction, 1);
 
         // Limiter les dégâts à la vie restante du défenseur
         return Math.min(degats, defenseur.getPv());
