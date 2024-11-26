@@ -10,7 +10,12 @@ public class WarriorHero extends Hero implements PersoPuissant{
 
     @Override
     public void useUltimate() {
-        System.out.println(name + " uses Power Strike!");
-        // Utilise le pouvoir ultime pour infliger des dégâts bonus
+        if (this.ulti) {
+            System.out.println(name + " Boost son attaque !");
+        this.att = this.att + 50;
+        this.ulti = false;
+        } else {
+            System.out.println("l'ulti a déjà été utilisé");
+        }
     }
 }

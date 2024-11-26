@@ -10,7 +10,12 @@ public class MageHero extends Hero  implements PersoPuissant{
 
     @Override
     public void useUltimate() {
-        System.out.println(name + " uses Fireball!");
-        // Utilise le pouvoir ultime pour infliger des dégâts bonus
+        if (this.ulti) {
+            System.out.println(name + " Boost ses PV !");
+        this.pv = this.pv + 50;
+        this.ulti = false;
+        } else {
+            System.out.println("l'ulti a déjà été utilisé");
+        }
     }
 }
