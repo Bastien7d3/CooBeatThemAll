@@ -88,7 +88,36 @@ public class Jeu {
         Scanner scanner = new Scanner(System.in);
         int position = 0; // placement du joueur sur la case de départ 0
 
-        while (position != plateau.getCases().size()) {
+        while (position != plateau.getCases().size()-1) {
+
+            // Vérifier si la case deux cases plus loin existe
+            if (position + 2 < plateau.getCases().size()) {
+
+                Case futureCase = plateau.getCases().get(position + 2);
+                int nombreBrigands = 0;
+                for (Ennemi ennemi : futureCase.getEnnemis()) {
+                    if (ennemi instanceof BrigandEnnemi) {
+                        nombreBrigands++;
+                    }
+                }
+                
+                //si il y a au moins 1 brigand
+                if (nombreBrigands > 0) {
+                    int pvPerdus = nombreBrigands * 2; // 1 brigand enleve  PV au Hero
+                    joueur1.setPv(joueur1.getPv() - pvPerdus);
+
+                    System.out.println("\nAttention ! " + nombreBrigands + " brigand(s) tirent sur vous depuis la case " + (position + 2) + " !");
+                    System.out.println("Vous perdez " + pvPerdus + " PV. Il vous reste " + joueur1.getPv() + " PV.");
+
+                    // Au cas ou le joueur est mort
+                    if (joueur1.getPv() <= 0) {
+                        System.out.println("Vous êtes mort à cause des tirs des brigands ! Fin du jeu.");
+                        return;
+                    }
+                }
+            }
+
+
             Case currentCase = plateau.getCases().get(position); // case actuelle du joueur
             System.out.println("\nVous êtes sur la " + currentCase);
 
@@ -111,7 +140,7 @@ public class Jeu {
                         System.out.println("\nCombat contre : " + ennemi);
                         Combat combat = new Combat(joueur1, ennemi);
                         combat.lancerCombat();
-                        // si il est mort aloprs c'est ciao
+                        // si il est mort alors c'est ciao
                         if (joueur1.isAlive() == false) {
                             System.out.println("Vous êtes mort ! Fin du jeu.");
                             return;
@@ -137,6 +166,9 @@ public class Jeu {
             position++;
         }
 
+        Thread.sleep(1500);
+        System.out.println("\nVous êtes arrivé à la fin du plateau et avez vaincu tous les ennemis !");
+        Thread.sleep(1500);
         System.out.println("\nFélicitations ! Vous avez terminé le plateau !");
     }
 }

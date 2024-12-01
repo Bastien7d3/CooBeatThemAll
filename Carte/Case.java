@@ -48,7 +48,7 @@ class Case {
         if (!ennemis.isEmpty()) { // isEmpty permet de vérifier si la chaine de carctères est vide ou pas
             result += "Ennemis: ";
             for (Ennemi ennemi : ennemis) {
-                result += ennemi.GetNom() + "";
+                result += ennemi.GetNom() + " ";
             }
         } else {
             result += "Aucun ennemi";

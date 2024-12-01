@@ -1,6 +1,10 @@
 import java.util.ArrayList;
 import java.util.Random;
 
+import Perso.Ennemi.Ennemi;
+import Perso.Ennemi.Boss.BossEnnemi;
+import Perso.Ennemi.Brigand.BrigandEnnemi;
+
 class Plateau {
 
     private int id;
@@ -23,7 +27,19 @@ class Plateau {
         
         for (int i = 0; i < longueur; i++) {
             Case caseAleatoire = casesPredefinies.get(random.nextInt(casesPredefinies.size()));
-            Case nouvelleCase = new Case(i, caseAleatoire.getBonus(), new ArrayList<>(caseAleatoire.getEnnemis()));
+
+            int nombreEnnemis = random.nextInt(4);
+            ArrayList<Ennemi> ennemisCopies = new ArrayList<>();
+            for (int j = 0; j < nombreEnnemis; j++) {
+                int typeEnnemi = random.nextInt(2);
+                if (typeEnnemi == 0) {
+                    ennemisCopies.add(new BrigandEnnemi());
+                } else {
+                    ennemisCopies.add(new BossEnnemi());
+                }
+            }
+
+            Case nouvelleCase = new Case(i, caseAleatoire.getBonus(), ennemisCopies);
             cases.add(nouvelleCase);
         }
 

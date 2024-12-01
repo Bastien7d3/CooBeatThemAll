@@ -3,6 +3,8 @@ import Perso.Hero.Hero;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
+        System.out.println("\nDéveloppeur: Brunel Batsien et Beaurepaire Paul\n");
+
         Object[] resultat = Jeu.lancer();
 
         Plateau plateau = (Plateau) resultat[0];
