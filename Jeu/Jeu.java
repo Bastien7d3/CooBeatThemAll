@@ -127,8 +127,7 @@ public class Jeu {
                 if (currentCase.getBonus() != null) {
                     System.out.println("Bonus de la case : " + currentCase.getBonus());
 
-                    // TODO : faire la méthode pour appliquer les bonus
-                    //joueur1.appliquerBonus(currentCase.getBonus());
+                    joueur1.useBonus(currentCase.getBonus());
                     Thread.sleep(1500); // attendre 1,5 secondes pour laisser du suspense !
                 }
 
