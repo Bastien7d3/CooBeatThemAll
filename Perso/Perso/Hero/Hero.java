@@ -26,4 +26,6 @@ public abstract class Hero extends Perso{
     }
 
     public abstract void useUltimate();
+
+    public abstract void useBonus(String bonus);
 }
