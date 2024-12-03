@@ -18,14 +18,4 @@ public class WarriorHero extends Hero implements PersoPuissant{
             System.out.println("l'ulti a déjà été utilisé");
         }
     }
-
-    public void useBonus(String bonus){
-        if (bonus == "soin") {
-            this.att = this.pv + 25;
-        } if (bonus == "attaque") {
-            this.att = this.att + 10;
-        }else {
-            System.out.println("Erreur, bonus incompatible");
-        }
-    }
 }

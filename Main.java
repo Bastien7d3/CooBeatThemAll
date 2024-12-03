@@ -1,9 +1,29 @@
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
 import Perso.Hero.Hero;
 
 public class Main {
+
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
+
     public static void main(String[] args) throws InterruptedException {
 
-        System.out.println("\nDéveloppeur: Brunel Batsien et Beaurepaire Paul\n");
+        // Charger le fichier de configuration
+        try (FileInputStream configFile = new FileInputStream("logging.properties")) {
+            LogManager.getLogManager().readConfiguration(configFile);
+        } catch (IOException e) {
+            System.err.println("Erreur de chargement du fichier logging.properties : " + e.getMessage());
+        }
+
+        // Exemple d'utilisation des logs
+        logger.info("L'application démarre...");
+        logger.warning("Ceci est un avertissement.");
+        logger.severe("Ceci est une erreur critique.");
+
+        System.out.println("\nDéveloppeur: Brunel Bastien et Beaurepaire Paul\n");
 
         Object[] resultat = Jeu.lancer();
 

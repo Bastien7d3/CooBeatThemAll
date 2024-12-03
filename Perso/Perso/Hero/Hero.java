@@ -27,5 +27,11 @@ public abstract class Hero extends Perso{
 
     public abstract void useUltimate();
 
-    public abstract void useBonus(String bonus);
+    public void useBonus(String bonus){
+        if (bonus == "Bonus de soin") {
+            this.att = this.pv + 25;
+        }if (bonus == "Bonus d'attaque") {
+            this.att = this.att + 10;
+        }
+    }
 }
