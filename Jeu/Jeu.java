@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.logging.Logger;
+import java.util.logging.LogManager;
 
 import Combat.Combat;
 import Perso.Hero.Hero;
@@ -12,8 +14,11 @@ import Perso.Ennemi.Boss.BossEnnemi;
 
 public class Jeu {
 
+    protected static Logger logger = Logger.getLogger(Jeu.class.getName());
+
     public static Object[] lancer() {
 
+        logger.info("début du jeu");
         System.out.println("\nBonjour et bienvenue sur le jeu de CooBeatThemAll !\n");
         System.out.println("CooBeatThemAll est un mini-jeu de combat en Java, dans lequel des héros affrontent divers ennemis. Ce projet illustre une architecture orientée objet avec des concepts tels que l'héritage, les classes abstraites et le polymorphisme. Chaque personnage possède ses propres attributs et compétences spécifiques, ce qui permet d'expérimenter différentes stratégies de combat.\n");
         System.out.println("Pour commencer, veuillez choisir un numéro de plateau :\n");
