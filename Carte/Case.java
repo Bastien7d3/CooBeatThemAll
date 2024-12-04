@@ -1,17 +1,34 @@
 import java.util.ArrayList;
 import Perso.Ennemi.Ennemi;
+import java.util.logging.Logger;
 
+/**
+ * Classe représentant une case sur un plateau de jeu.
+ * Chaque case peut avoir un identifiant, un bonus, et une liste d'ennemis.
+ */
 class Case {
-    private int id;
-    private String bonus;
-    private ArrayList<Ennemi> ennemis;
 
+    private static final Logger logger = Logger.getLogger(Case.class.getName());
+
+    private int id; // Identifiant unique de la case
+    private String bonus; // Bonus associé à la case (peut être null)
+    private ArrayList<Ennemi> ennemis; // Liste des ennemis présents sur la case
+
+    /**
+     * Constructeur de la case.
+     *
+     * @param id id de la case
+     * @param bonus bonus de la case (peut être null)
+     * @param ennemis liste des ennemis présents sur la case
+     */
     public Case(int id, String bonus, ArrayList<Ennemi> ennemis) {
         this.id = id;
         this.bonus = bonus;
         this.ennemis = ennemis;
+        logger.info("Case initialisé avec succès.");
     }
 
+    
     public int getId() {
         return id;
     }
@@ -24,11 +41,15 @@ class Case {
         return ennemis;
     }
 
+    /**
+     * Affichage console d'une case.
+     *
+     * @return Une chaîne décrivant la case.
+     */
     @Override
     public String toString() {
-        /*
-         * Affichage console d'une case
-         */
+        logger.info("Génération de la représentation console d'une case.");
+
         String result = "Case " + id + " [";
     
         if (id == 0) {
@@ -41,10 +62,12 @@ class Case {
             return result;
         }
 
+        // Bonus de la case
         if (bonus != null) {
             result += "Bonus: " + bonus + ", ";
         }
     
+        // Ennemis présents sur la case
         if (!ennemis.isEmpty()) { // isEmpty permet de vérifier si la chaine de carctères est vide ou pas
             result += "Ennemis: ";
             for (Ennemi ennemi : ennemis) {

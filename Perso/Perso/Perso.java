@@ -62,6 +62,11 @@ public abstract class Perso {
         return pv > 0;
     }
 
+    /**
+     * Affichage console d'un personnage.
+     *
+     * @return Une chaîne décrivant la case.
+     */
     @Override
     public String toString() {
         return name + " - PV: " + pv + ", ATT: " + att + ", DEF: " + def;

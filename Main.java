@@ -18,10 +18,7 @@ public class Main {
             System.err.println("Erreur de chargement du fichier logging.properties : " + e.getMessage());
         }
 
-        // Exemple d'utilisation des logs
-        logger.info("L'application démarre...");
-        logger.warning("Ceci est un avertissement.");
-        logger.severe("Ceci est une erreur critique.");
+        logger.info("début du jeu");
 
         System.out.println("\nDéveloppeur: Brunel Bastien et Beaurepaire Paul\n");
 
