@@ -1,7 +1,7 @@
-package Perso.Hero.Mage;
+package imt.coo.beatthemall.Perso.Perso.Hero.Mage;
 
-import Perso.PersoPuissant;
-import Perso.Hero.Hero;
+import imt.coo.beatthemall.Perso.Perso.PersoPuissant;
+import imt.coo.beatthemall.Perso.Perso.Hero.Hero;
 
 public class MageHero extends Hero  implements PersoPuissant{
     public MageHero() {

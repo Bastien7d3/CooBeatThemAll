@@ -1,17 +1,18 @@
+package imt.coo.beatthemall.Carte;
+
 import java.util.ArrayList;
 import java.util.Random;
-
 import java.util.logging.Logger;
 
-import Perso.Ennemi.Ennemi;
-import Perso.Ennemi.Boss.BossEnnemi;
-import Perso.Ennemi.Brigand.BrigandEnnemi;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Ennemi;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Brigand.BrigandEnnemi;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Boss.BossEnnemi;
 
 /**
  * Classe Représentant un plateau de jeu composé de plusieurs cases.
  * Chaque plateau a un identifiant, une description, une longueur, et une liste de cases.
  */
-class Plateau {
+public class Plateau {
 
     private static final Logger logger = Logger.getLogger(Plateau.class.getName());
 

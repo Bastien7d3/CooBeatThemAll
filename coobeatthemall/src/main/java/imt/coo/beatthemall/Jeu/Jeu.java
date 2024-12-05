@@ -1,16 +1,19 @@
+package imt.coo.beatthemall.Jeu;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Logger;
-import java.util.logging.LogManager;
 
-import Combat.Combat;
-import Perso.Hero.Hero;
-import Perso.Hero.Mage.MageHero;
-import Perso.Hero.Warrior.WarriorHero;
-import Perso.Ennemi.Brigand.BrigandEnnemi;
-import Perso.Ennemi.Ennemi;
-import Perso.Ennemi.Boss.BossEnnemi;
+import imt.coo.beatthemall.Carte.Plateau;
+import imt.coo.beatthemall.Carte.Case;
+import imt.coo.beatthemall.Combat.Combat;
+import imt.coo.beatthemall.Perso.Perso.Hero.Hero;
+import imt.coo.beatthemall.Perso.Perso.Hero.Mage.MageHero;
+import imt.coo.beatthemall.Perso.Perso.Hero.Warrior.WarriorHero;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Brigand.BrigandEnnemi;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Ennemi;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Boss.BossEnnemi;
 
 /**
  * Classe permettant de lancer le jeu.

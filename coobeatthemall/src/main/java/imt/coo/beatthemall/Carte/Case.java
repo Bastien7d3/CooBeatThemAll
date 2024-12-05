@@ -1,12 +1,15 @@
+package imt.coo.beatthemall.Carte;
+
 import java.util.ArrayList;
-import Perso.Ennemi.Ennemi;
 import java.util.logging.Logger;
+
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Ennemi;
 
 /**
  * Classe représentant une case sur un plateau de jeu.
  * Chaque case peut avoir un identifiant, un bonus, et une liste d'ennemis.
  */
-class Case {
+public class Case {
 
     private static final Logger logger = Logger.getLogger(Case.class.getName());
 

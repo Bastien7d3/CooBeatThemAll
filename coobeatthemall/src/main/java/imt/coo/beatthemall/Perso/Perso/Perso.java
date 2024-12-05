@@ -1,4 +1,4 @@
-package Perso;
+package imt.coo.beatthemall.Perso.Perso;
 
 public abstract class Perso {
     protected String name;

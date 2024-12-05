@@ -1,7 +1,7 @@
-package Perso.Ennemi.Boss;
+package imt.coo.beatthemall.Perso.Perso.Ennemi.Boss;
 
-import Perso.PersoPuissant;
-import Perso.Ennemi.Ennemi;
+import imt.coo.beatthemall.Perso.Perso.PersoPuissant;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Ennemi;
 
 public class BossEnnemi extends Ennemi  implements PersoPuissant{
     public BossEnnemi() {

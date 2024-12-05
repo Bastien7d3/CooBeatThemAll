@@ -1,7 +1,7 @@
-package Perso.Hero;
+package imt.coo.beatthemall.Perso.Perso.Hero;
 
 import java.util.logging.Logger;
-import Perso.Perso;
+import imt.coo.beatthemall.Perso.Perso.Perso;
 
 /**
  * Classe abstraite représentant un héros dans le jeu.

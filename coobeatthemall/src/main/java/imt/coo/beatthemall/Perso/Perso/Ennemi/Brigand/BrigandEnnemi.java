@@ -1,6 +1,6 @@
-package Perso.Ennemi.Brigand;
+package imt.coo.beatthemall.Perso.Perso.Ennemi.Brigand;
 
-import Perso.Ennemi.Ennemi;
+import imt.coo.beatthemall.Perso.Perso.Ennemi.Ennemi;
 
 public class BrigandEnnemi extends Ennemi {
     public BrigandEnnemi() {

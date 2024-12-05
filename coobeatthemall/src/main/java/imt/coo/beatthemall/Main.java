@@ -1,9 +1,13 @@
+package imt.coo.beatthemall;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
-import Perso.Hero.Hero;
+import imt.coo.beatthemall.Perso.Perso.Hero.Hero;
+import imt.coo.beatthemall.Carte.Plateau;
+import imt.coo.beatthemall.Jeu.Jeu;
 
 public class Main {
 

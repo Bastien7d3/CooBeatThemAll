@@ -1,12 +1,12 @@
-package Combat;
+package imt.coo.beatthemall.Combat;
 
 import java.util.Random;
 import java.util.Scanner;
 
 import java.util.logging.Logger;
 
-import Perso.Perso;
-import Perso.Hero.Hero;
+import imt.coo.beatthemall.Perso.Perso.Perso;
+import imt.coo.beatthemall.Perso.Perso.Hero.Hero;
 
 /**
  * Classe représentant un combat entre un héros (joueur1) et un autre personnage (joueur2).

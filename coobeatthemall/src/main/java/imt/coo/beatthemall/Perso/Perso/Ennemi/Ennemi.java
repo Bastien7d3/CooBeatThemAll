@@ -1,6 +1,6 @@
-package Perso.Ennemi;
+package imt.coo.beatthemall.Perso.Perso.Ennemi;
 
-import Perso.Perso;
+import imt.coo.beatthemall.Perso.Perso.Perso;
 
 public abstract class Ennemi extends Perso {
     protected boolean isBoss; // Pour savoir si c'est un boss
