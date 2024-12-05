@@ -1,0 +1,392 @@
+déc. 04, 2024 11:20:54 AM Main main
+INFO: début du jeu
+déc. 04, 2024 11:20:54 AM Jeu lancer
+INFO: Démarrage de la méthode lancer()
+déc. 04, 2024 11:20:54 AM Jeu lancer
+INFO: Présentation du jeu affichée.
+déc. 04, 2024 11:20:54 AM Plateau <init>
+INFO: Plateau initialisé avec succès.
+déc. 04, 2024 11:20:54 AM Plateau <init>
+INFO: Plateau initialisé avec succès.
+déc. 04, 2024 11:20:54 AM Plateau <init>
+INFO: Plateau initialisé avec succès.
+déc. 04, 2024 11:20:54 AM Jeu lancer
+INFO: 3 plateaux créés.
+déc. 04, 2024 11:20:54 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:20:54 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:20:54 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:20:54 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:20:54 AM Jeu lancer
+INFO: Cases prédéfinies générées.
+déc. 04, 2024 11:20:54 AM Plateau toString
+INFO: Génération de la représentation console du plateau.
+déc. 04, 2024 11:20:54 AM Plateau toString
+INFO: Génération de la représentation console du plateau.
+déc. 04, 2024 11:20:54 AM Plateau toString
+INFO: Génération de la représentation console du plateau.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Case générée avec succès.
+déc. 04, 2024 11:21:58 AM Case <init>
+INFO: Case initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Plateau genererCasesAleatoires
+INFO: Génération des cases du plateau terminée.
+déc. 04, 2024 11:21:58 AM Jeu lancer
+INFO: Plateau 10 cases sélectionné.
+déc. 04, 2024 11:21:58 AM Perso.Hero.Hero <init>
+INFO: Héro initialisé avec succès.
+déc. 04, 2024 11:21:58 AM Perso.Hero.Hero <init>
+INFO: Héro initialisé avec succès.
+déc. 04, 2024 11:22:20 AM Jeu lancer
+INFO: Héros Warrior sélectionné.
+déc. 04, 2024 11:22:20 AM Jeu lancer
+INFO: Méthode lancer() terminée avec succès.
+déc. 04, 2024 11:22:20 AM Plateau toString
+INFO: Génération de la représentation console du plateau.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:20 AM Jeu commencerJeu
+INFO: Début de la méthode commencerJeu()
+déc. 04, 2024 11:22:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:50 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:50 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:50 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:50 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:22:50 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:22:50 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:22:50 AM Perso.Hero.Hero useBonus
+INFO: Bonus de d'attaque attribué
+déc. 04, 2024 11:23:07 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:07 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:07 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:07 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:07 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:23:07 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:23:07 AM Perso.Hero.Hero useBonus
+INFO: Bonus de soin attribué
+déc. 04, 2024 11:23:07 AM Perso.Hero.Hero useBonus
+WARNING: Impossible d'attribuer le bonus
+déc. 04, 2024 11:23:36 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:36 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:36 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:36 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:23:36 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:23:36 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:23:36 AM Perso.Hero.Hero useBonus
+INFO: Bonus de d'attaque attribué
+déc. 04, 2024 11:23:39 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBoss - PV: 20, ATT: 50, DEF: 20
+déc. 04, 2024 11:23:39 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Boss.
+déc. 04, 2024 11:23:39 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Boss.
+déc. 04, 2024 11:24:13 AM Combat.Combat lancerCombat
+INFO: Warrior Hero utilise sa capacité spéciale.
+déc. 04, 2024 11:24:16 AM Combat.Combat lancerCombat
+INFO: Warrior Hero utilise sa capacité spéciale.
+déc. 04, 2024 11:24:21 AM Combat.Combat lancerCombat
+INFO: Warrior Hero utilise sa capacité spéciale.
+déc. 04, 2024 11:24:25 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 4 fois !
+déc. 04, 2024 11:24:25 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:24:25 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 20 points de dégâts à l'ennemi.
+déc. 04, 2024 11:24:25 AM Combat.Combat lancerCombat
+INFO: Boss est mort.
+déc. 04, 2024 11:24:57 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:24:57 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:24:57 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:24:57 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:24:57 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:24:57 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:24:57 AM Perso.Hero.Hero useBonus
+INFO: Bonus de d'attaque attribué
+déc. 04, 2024 11:25:00 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBrigand - PV: 60, ATT: 15, DEF: 5
+déc. 04, 2024 11:25:00 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:00 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:01 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 2 fois !
+déc. 04, 2024 11:25:01 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:01 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 60 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:01 AM Combat.Combat lancerCombat
+INFO: Brigand est mort.
+déc. 04, 2024 11:25:02 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBrigand - PV: 60, ATT: 15, DEF: 5
+déc. 04, 2024 11:25:02 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:02 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:05 AM Combat.Combat lancerCombat
+INFO: Warrior Hero utilise sa capacité spéciale.
+déc. 04, 2024 11:25:07 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 1 fois !
+déc. 04, 2024 11:25:07 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:07 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 60 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:07 AM Combat.Combat lancerCombat
+INFO: Brigand est mort.
+déc. 04, 2024 11:25:08 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBrigand - PV: 60, ATT: 15, DEF: 5
+déc. 04, 2024 11:25:08 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:08 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:10 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 1 fois !
+déc. 04, 2024 11:25:10 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:10 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 60 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:10 AM Combat.Combat lancerCombat
+INFO: Brigand est mort.
+déc. 04, 2024 11:25:13 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:13 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:13 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:13 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:13 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:25:13 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:25:13 AM Perso.Hero.Hero useBonus
+INFO: Bonus de soin attribué
+déc. 04, 2024 11:25:13 AM Perso.Hero.Hero useBonus
+WARNING: Impossible d'attribuer le bonus
+déc. 04, 2024 11:25:17 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:17 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:17 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:17 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:17 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:25:17 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:25:17 AM Perso.Hero.Hero useBonus
+INFO: Bonus de soin attribué
+déc. 04, 2024 11:25:17 AM Perso.Hero.Hero useBonus
+WARNING: Impossible d'attribuer le bonus
+déc. 04, 2024 11:25:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:20 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:20 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:25:20 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:25:20 AM Perso.Hero.Hero useBonus
+INFO: Bonus de d'attaque attribué
+déc. 04, 2024 11:25:23 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBoss - PV: 20, ATT: 50, DEF: 20
+déc. 04, 2024 11:25:23 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Boss.
+déc. 04, 2024 11:25:23 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Boss.
+déc. 04, 2024 11:25:24 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 5 fois !
+déc. 04, 2024 11:25:24 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:24 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 20 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:24 AM Combat.Combat lancerCombat
+INFO: Boss est mort.
+déc. 04, 2024 11:25:28 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:28 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:28 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:28 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:28 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:25:28 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:25:28 AM Perso.Hero.Hero useBonus
+WARNING: Impossible d'attribuer le bonus
+déc. 04, 2024 11:25:31 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBrigand - PV: 60, ATT: 15, DEF: 5
+déc. 04, 2024 11:25:31 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:31 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:34 AM Combat.Combat lancerCombat
+INFO: Warrior Hero utilise sa capacité spéciale.
+déc. 04, 2024 11:25:35 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 1 fois !
+déc. 04, 2024 11:25:35 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:35 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 60 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:35 AM Combat.Combat lancerCombat
+INFO: Brigand est mort.
+déc. 04, 2024 11:25:39 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:39 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:39 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:39 AM Case toString
+INFO: Génération de la représentation console d'une case.
+déc. 04, 2024 11:25:39 AM Jeu commencerJeu
+INFO: Applique un bonus au joueur
+déc. 04, 2024 11:25:39 AM Perso.Hero.Hero useBonus
+WARNING: Impossible d'attribuer le bonus
+déc. 04, 2024 11:25:42 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBoss - PV: 20, ATT: 50, DEF: 20
+déc. 04, 2024 11:25:42 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Boss.
+déc. 04, 2024 11:25:42 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Boss.
+déc. 04, 2024 11:25:45 AM Combat.Combat lancerCombat
+INFO: Warrior Hero utilise sa capacité spéciale.
+déc. 04, 2024 11:25:47 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 2 fois !
+déc. 04, 2024 11:25:47 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:47 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 20 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:47 AM Combat.Combat lancerCombat
+INFO: Boss est mort.
+déc. 04, 2024 11:25:48 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBrigand - PV: 60, ATT: 15, DEF: 5
+déc. 04, 2024 11:25:48 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:48 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Brigand.
+déc. 04, 2024 11:25:51 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 3 fois !
+déc. 04, 2024 11:25:51 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:51 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 60 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:51 AM Combat.Combat lancerCombat
+INFO: Brigand est mort.
+déc. 04, 2024 11:25:52 AM Jeu commencerJeu
+INFO: Début du combat contre un ennemiBoss - PV: 20, ATT: 50, DEF: 20
+déc. 04, 2024 11:25:52 AM Combat.Combat <init>
+INFO: Combat initialisé entre Warrior Hero et Boss.
+déc. 04, 2024 11:25:52 AM Combat.Combat lancerCombat
+INFO: Le combat commence entre Warrior Hero et Boss.
+déc. 04, 2024 11:25:53 AM Combat.Combat lancerCombat
+INFO: le Héro attaque 5 fois !
+déc. 04, 2024 11:25:53 AM Combat.Combat calculerDegats
+INFO: Dégats calsulés avec succès.
+déc. 04, 2024 11:25:53 AM Combat.Combat lancerCombat
+INFO: Le Héro inflige 20 points de dégâts à l'ennemi.
+déc. 04, 2024 11:25:53 AM Combat.Combat lancerCombat
+INFO: Boss est mort.
+déc. 04, 2024 11:25:55 AM Plateau getCases
+FINE: Accès à la liste des cases du plateau.
+déc. 04, 2024 11:25:56 AM Jeu commencerJeu
+INFO: Le joueur a atteint la fin du plateau, il a gagné
