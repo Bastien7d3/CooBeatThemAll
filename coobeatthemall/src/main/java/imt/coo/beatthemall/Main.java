@@ -12,19 +12,7 @@ import imt.coo.beatthemall.Jeu.Jeu;
 
 public class Main {
 
-    private static final Logger logger = Logger.getLogger(Main.class.getName());
-
     public static void main(String[] args) throws InterruptedException {
-
-        // Vérifier et créer le répertoire "logs" si nécessaire
-        File logDir = new File("logs");
-        if (!logDir.exists()) {
-            if (logDir.mkdirs()) {
-                System.out.println("Répertoire 'logs' créé avec succès !");
-            } else {
-                System.err.println("Échec de la création du répertoire 'logs'.");
-            }
-        }
 
         // Charger le fichier de configuration de logs
         try {
