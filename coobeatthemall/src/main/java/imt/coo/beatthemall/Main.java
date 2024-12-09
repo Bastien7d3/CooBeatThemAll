@@ -13,7 +13,8 @@ import imt.coo.beatthemall.Jeu.Jeu;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-
+        System.out.println("Paul Beaurepaire & Bastien BRUNEL");
+        
         // Charger le fichier de configuration de logs
         try {
             LogManager.getLogManager().readConfiguration(
@@ -41,6 +42,7 @@ public class Main {
         System.out.println("Le héros choisi est : " + joueur1);
 
         System.out.println("\n-------------------- La partie commence --------------------\n");
+        
         System.out.println("\nA vous de jouer !\n");
         Jeu.commencerJeu(plateau, joueur1);
 
