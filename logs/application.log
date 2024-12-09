@@ -1,0 +1,136 @@
+déc. 09, 2024 10:21:57 PM imt.coo.beatthemall.Main main
+INFOS: Début du jeu
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Jeu.Jeu lancer
+INFOS: Démarrage de la méthode lancer()
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Jeu.Jeu lancer
+INFOS: Présentation du jeu affichée.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Plateau <init>
+INFOS: Plateau initialisé avec succès.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Plateau <init>
+INFOS: Plateau initialisé avec succès.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Plateau <init>
+INFOS: Plateau initialisé avec succès.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Jeu.Jeu lancer
+INFOS: 3 plateaux créés.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Jeu.Jeu lancer
+INFOS: Cases prédéfinies générées.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Plateau toString
+INFOS: Génération de la représentation console du plateau.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Plateau toString
+INFOS: Génération de la représentation console du plateau.
+déc. 09, 2024 10:21:58 PM imt.coo.beatthemall.Carte.Plateau toString
+INFOS: Génération de la représentation console du plateau.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Case générée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case <init>
+INFOS: Case initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau genererCasesAleatoires
+INFOS: Génération des cases du plateau terminée.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Jeu.Jeu lancer
+INFOS: Plateau 10 cases sélectionné.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Perso.Perso.Hero.Hero <init>
+INFOS: Héro initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Perso.Perso.Hero.Hero <init>
+INFOS: Héro initialisé avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Jeu.Jeu lancer
+INFOS: Héros Warrior sélectionné.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Jeu.Jeu lancer
+INFOS: Méthode lancer() terminée avec succès.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau toString
+INFOS: Génération de la représentation console du plateau.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Jeu.Jeu commencerJeu
+INFOS: Début de la méthode commencerJeu()
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:00 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:02 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:02 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:02 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:02 PM imt.coo.beatthemall.Carte.Plateau getCases
+INFOS: Accès à la liste des cases du plateau.
+déc. 09, 2024 10:22:02 PM imt.coo.beatthemall.Carte.Case toString
+INFOS: Génération de la représentation console d'une case.
+déc. 09, 2024 10:22:02 PM imt.coo.beatthemall.Jeu.Jeu commencerJeu
+INFOS: Applique un bonus au joueur
+déc. 09, 2024 10:22:02 PM imt.coo.beatthemall.Perso.Perso.Hero.Hero useBonus
+INFOS: Bonus de d'attaque attribué
+déc. 09, 2024 10:22:04 PM imt.coo.beatthemall.Jeu.Jeu commencerJeu
+INFOS: Le joueur a choisi de quitter le jeu.

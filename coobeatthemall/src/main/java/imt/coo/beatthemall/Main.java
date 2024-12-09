@@ -1,5 +1,6 @@
 package imt.coo.beatthemall;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.logging.LogManager;
@@ -15,14 +16,30 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        // Charger le fichier de configuration
-        try (FileInputStream configFile = new FileInputStream("logging.properties")) {
-            LogManager.getLogManager().readConfiguration(configFile);
-        } catch (IOException e) {
+        // Vérifier et créer le répertoire "logs" si nécessaire
+        File logDir = new File("logs");
+        if (!logDir.exists()) {
+            if (logDir.mkdirs()) {
+                System.out.println("Répertoire 'logs' créé avec succès !");
+            } else {
+                System.err.println("Échec de la création du répertoire 'logs'.");
+            }
+        }
+
+        // Charger le fichier de configuration de logs
+        try {
+            LogManager.getLogManager().readConfiguration(
+                Main.class.getClassLoader().getResourceAsStream("logging.properties")
+            );
+            System.out.println("Configuration des logs chargée avec succès !");
+        } catch (IOException | NullPointerException e) {
             System.err.println("Erreur de chargement du fichier logging.properties : " + e.getMessage());
         }
 
-        logger.info("début du jeu");
+        // Exemple de log
+        Logger logger = java.util.logging.Logger.getLogger(Main.class.getName());
+        logger.info("Début du jeu");
+    
 
         System.out.println("\nDéveloppeur: Brunel Bastien et Beaurepaire Paul\n");
 
